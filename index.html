@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>snake and ladders</title>
+    <link
+      rel="stylesheet"
+      href="/assets/bootstrap/css/bootstrap.min.css?h=f1a8fe9e98944b9d682ec5c3efac8f17"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/styles.css?h=c97b777705ba0576e6b083208a933f14"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <td id="100">
+            <img
+              class="img-fluid"
+              src="/assets/img/100@3x.png?h=38f0aa625f2e4c93a25fd30156c95479"
+            />
+          </td>
+          <td id="99">
+            <img
+              class="img-fluid ms-0"
+              src="/assets/img/99@3x.png?h=ca55b8b4b8b773bb2f0d7ff292128c79"
+            />
+          </td>
+          <td id="98">
+            <img
+              class="img-fluid"
+              src="/assets/img/98@3x.png?h=f48cdf4821ce872b70ae55407d416a6f"
+            />
+          </td>
+          <td id="97">
+            <img
+              class="img-fluid"
+              src="/assets/img/97@3x.png?h=a762e1001723b289f8e68082441bdba9"
+            />
+          </td>
+          <td id="96">
+            <img
+              class="img-fluid"
+              src="/assets/img/96@3x.png?h=1062d0c033ceeb2c9dbcf8c3ce7874b3"
+            />
+          </td>
+          <td id="95">
+            <img
+              class="img-fluid"
+              src="/assets/img/95@3x.png?h=7862aed8df9e2bf2529986b02ed0cf68"
+            />
+          </td>
+          <td id="94">
+            <img
+              class="img-fluid"
+              src="/assets/img/94@3x.png?h=bb6104c33b25aa01d0c7fad91a534f0b"
+            />
+          </td>
+          <td id="93">
+            <img
+              class="img-fluid"
+              src="/assets/img/93@3x.png?h=e3b769c3db18b642b6553a0b3b1f41c1"
+            />
+          </td>
+          <td id="92">
+            <img
+              class="img-fluid"
+              src="/assets/img/92@3x.png?h=e3b769c3db18b642b6553a0b3b1f41c1"
+            />
+          </td>
+          <td id="91">
+            <img
+              class="img-fluid"
+              src="/assets/img/91@3x.png?h=94710089eafadedf28c518f7f0e83a88"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="81">
+            <img
+              class="img-fluid"
+              src="/assets/img/81@3x.png?h=0b53ea2240d6101c103c06f4bf74acd4"
+            />
+          </td>
+          <td id="82">
+            <img
+              class="img-fluid"
+              src="/assets/img/82@3x.png?h=ffb06d6119b501375bf3ee664cf0a407"
+            />
+          </td>
+          <td id="83">
+            <img
+              class="img-fluid"
+              src="/assets/img/83@3x.png?h=56a1e175d33d05772c1c402d3556cd77"
+            />
+          </td>
+          <td id="84">
+            <img
+              class="img-fluid"
+              src="/assets/img/84@3x.png?h=1ac5e5a98a671e12373c0eea64448151"
+            />
+          </td>
+          <td id="85">
+            <img
+              class="img-fluid"
+              src="/assets/img/85@3x.png?h=262c4b6aebf8e0de4ccb7034f25c77cf"
+            />
+          </td>
+          <td id="86">
+            <img
+              class="img-fluid"
+              src="/assets/img/86@3x.png?h=fc424984ed830b1f742f5b98f683161a"
+            />
+          </td>
+          <td id="87">
+            <img
+              class="img-fluid"
+              src="/assets/img/87@3x.png?h=16c14b27a54d780b610f80328d548e3b"
+            />
+          </td>
+          <td id="88">
+            <img
+              class="img-fluid"
+              src="/assets/img/88@3x.png?h=059d1875f4481921e67ce0a636e5a7aa"
+            />
+          </td>
+          <td id="89">
+            <img
+              class="img-fluid"
+              src="/assets/img/89@3x.png?h=55382b5f49301946a3839e63f646d73b"
+            />
+          </td>
+          <td id="90">
+            <img
+              class="img-fluid"
+              src="/assets/img/90@3x.png?h=4317e3c866a9a1e85bb93220d98319d9"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="80">
+            <img
+              class="img-fluid"
+              src="/assets/img/80@3x.png?h=c9d85d38df4c0ddd44a66fc76c4571c0"
+            />
+          </td>
+          <td id="79">
+            <img
+              class="img-fluid"
+              src="/assets/img/79@3x.png?h=326e13ee9d838a7ea7d69e0b4faf96d3"
+            />
+          </td>
+          <td id="78">
+            <img
+              class="img-fluid"
+              src="/assets/img/78@3x.png?h=9e75b26ce324b4620f01d4a57434748a"
+            />
+          </td>
+          <td id="77">
+            <img
+              class="img-fluid"
+              src="/assets/img/77@3x.png?h=cf8c73d5f1315760eeb2061f07933c2e"
+            />
+          </td>
+          <td id="76">
+            <img
+              class="img-fluid"
+              src="/assets/img/76@3x.png?h=db2f6dbdde17f4b931cae86994d15b34"
+            />
+          </td>
+          <td id="75">
+            <img
+              class="img-fluid"
+              src="/assets/img/75@3x.png?h=1904b166b46cea771c277488b3765f22"
+            />
+          </td>
+          <td id="74">
+            <img
+              class="img-fluid"
+              src="/assets/img/74@3x.png?h=c9578d67fbb1927afa1085697233eaea"
+            />
+          </td>
+          <td id="73">
+            <img
+              class="img-fluid"
+              src="/assets/img/73@3x.png?h=a3792358e62119e8f83bae0c1dec5528"
+            />
+          </td>
+          <td id="72">
+            <img
+              class="img-fluid"
+              src="/assets/img/72@3x.png?h=1110b28f5b93e047d0ce4143885ca173"
+            />
+          </td>
+          <td id="71">
+            <img
+              class="img-fluid"
+              src="/assets/img/71@3x.png?h=5775f19115ed308c58290cf1deebdc04"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="61">
+            <img
+              class="img-fluid"
+              src="/assets/img/61.png?h=4e18f60036f8d64916010b8d63f05696"
+            />
+          </td>
+          <td id="62">
+            <img
+              class="img-fluid"
+              src="/assets/img/62.png?h=dafef75d047ecba039a323326282d230"
+            />
+          </td>
+          <td id="63">
+            <img
+              class="img-fluid"
+              src="/assets/img/63.png?h=8eb0b975d7291a5f0134d35610cebdd7"
+            />
+          </td>
+          <td id="64">
+            <img
+              class="img-fluid"
+              src="/assets/img/64.png?h=849a64a54ef5e46242f7e6200a070650"
+            />
+          </td>
+          <td id="65">
+            <img
+              class="img-fluid"
+              src="/assets/img/65.png?h=f712567c20158647bda8f72b54096070"
+            />
+          </td>
+          <td id="66">
+            <img
+              class="img-fluid"
+              src="/assets/img/66.png?h=edb88eba67c1ffef0f7e6d0b606b3279"
+            />
+          </td>
+          <td id="67">
+            <img
+              class="img-fluid"
+              src="/assets/img/67.png?h=a53ec15e750fedecd7e0518c24e3f3e0"
+            />
+          </td>
+          <td id="68">
+            <img
+              class="img-fluid"
+              src="/assets/img/68.png?h=3f08eba48974b4f74a40becede4a9b4b"
+            />
+          </td>
+          <td id="69">
+            <img
+              class="img-fluid"
+              src="/assets/img/69.png?h=2b6d1357b793f85256ad230abf09c51f"
+            />
+          </td>
+          <td id="70">
+            <img
+              class="img-fluid"
+              src="/assets/img/70.png?h=2b6d1357b793f85256ad230abf09c51f"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="60">
+            <img
+              class="img-fluid"
+              src="/assets/img/60@3x.png?h=081b619ab8fcace9192043a7ec602703"
+            />
+          </td>
+          <td id="59">
+            <img
+              class="img-fluid"
+              src="/assets/img/59@3x.png?h=8e641956751329e014236eb4a704fedf"
+            />
+          </td>
+          <td id="58">
+            <img
+              class="img-fluid"
+              src="/assets/img/58@3x.png?h=e1ed3d44568da52a0420e7e406070789"
+            />
+          </td>
+          <td id="57">
+            <img
+              class="img-fluid"
+              src="/assets/img/57@3x.png?h=0a3589ae7e76b404295dd3a1e3acfcd0"
+            />
+          </td>
+          <td id="56">
+            <img
+              class="img-fluid"
+              src="/assets/img/56@3x.png?h=0fe6beeddc2234906eeb167c214c86ae"
+            />
+          </td>
+          <td id="55">
+            <img
+              class="img-fluid"
+              src="/assets/img/55@3x.png?h=0655c1acf431098b4b53226f1fc1e0b0"
+            />
+          </td>
+          <td id="54">
+            <img
+              class="img-fluid"
+              src="/assets/img/54@3x.png?h=fd98fe4da9b55158ec116f909398ad58"
+            />
+          </td>
+          <td id="53">
+            <img
+              class="img-fluid"
+              src="/assets/img/53@3x.png?h=25a7a2240bdae760ceee30df9ea631cc"
+            />
+          </td>
+          <td id="52">
+            <img
+              class="img-fluid"
+              src="/assets/img/52@3x.png?h=b1fb4bf22538bf3a495222d7ab9a7279"
+            />
+          </td>
+          <td id="51">
+            <img
+              class="img-fluid"
+              src="/assets/img/51@3x.png?h=d0cd12652ab1f543dfe2707d6199e975"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="41">
+            <img
+              class="img-fluid"
+              src="/assets/img/41.png?h=cbb1e5d41f412ea9b31fc39a1b231ca4"
+            />
+          </td>
+          <td id="42">
+            <img
+              class="img-fluid"
+              src="/assets/img/42.png?h=34f777d5dbf2c128a087f66b3acc770b"
+            />
+          </td>
+          <td id="43">
+            <img
+              class="img-fluid"
+              src="/assets/img/43.png?h=fc7a749c7c4b2ff67ce01ad1ae363424"
+            />
+          </td>
+          <td id="44">
+            <img
+              class="img-fluid"
+              src="/assets/img/44.png?h=f1c2227a182374761963598fbb50cfac"
+            />
+          </td>
+          <td id="45">
+            <img
+              class="img-fluid"
+              src="/assets/img/45.png?h=3acd65fe8d51f8993d4089a080b821d8"
+            />
+          </td>
+          <td id="46">
+            <img
+              class="img-fluid"
+              src="/assets/img/46.png?h=a9de49cf988bbf5a1fceae15db0573e1"
+            />
+          </td>
+          <td id="47">
+            <img
+              class="img-fluid"
+              src="/assets/img/47.png?h=cb8cbd438960c0dcdbac9801ff1490ec"
+            />
+          </td>
+          <td id="48">
+            <img
+              class="img-fluid"
+              src="/assets/img/48.png?h=6392934d2466d14d2ce90a490d62da28"
+            />
+          </td>
+          <td id="49">
+            <img
+              class="img-fluid"
+              src="/assets/img/49.png?h=909e792bdcff153bc6184c6d14597f0c"
+            />
+          </td>
+          <td id="50">
+            <img
+              class="img-fluid"
+              src="/assets/img/50.png?h=92a774dfa9658ed5417837e9ffa2fbfa"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="40">
+            <img
+              class="img-fluid"
+              src="/assets/img/40@3x.png?h=751f62326d4f45918a6e7e6f3d7fbab6"
+            />
+          </td>
+          <td id="39">
+            <img
+              class="img-fluid"
+              src="/assets/img/39@3x.png?h=c17815d2f6c02bf1a53ec830e7f92573"
+            />
+          </td>
+          <td id="38">
+            <img
+              class="img-fluid"
+              src="/assets/img/38@3x.png?h=7d9d9961fa1613e8b93345f902d617ae"
+            />
+          </td>
+          <td id="37">
+            <img
+              class="img-fluid"
+              src="/assets/img/37@3x.png?h=e326f94d5969b35f27aba0fdeac57e31"
+            />
+          </td>
+          <td id="36">
+            <img
+              class="img-fluid"
+              src="/assets/img/36@3x.png?h=75a44e9ab41c217d865d080d2b8d4d55"
+            />
+          </td>
+          <td id="35">
+            <img
+              class="img-fluid"
+              src="/assets/img/35@3x.png?h=9829d2151ba760e8773934a31b45e7b7"
+            />
+          </td>
+          <td id="34">
+            <img
+              class="img-fluid"
+              src="/assets/img/34@3x.png?h=1e2a3e580518d4d51cf849d95c931637"
+            />
+          </td>
+          <td id="33">
+            <img
+              class="img-fluid"
+              src="/assets/img/33@3x.png?h=02e66241a42ed5f06a329aa03bff106a"
+            />
+          </td>
+          <td id="32">
+            <img
+              class="img-fluid"
+              src="/assets/img/32@3x.png?h=a512600a1f0ca37865aa9804ab8b465e"
+            />
+          </td>
+          <td id="31">
+            <img
+              class="img-fluid"
+              src="/assets/img/31@3x.png?h=1ef32662af882e11d2ef24123579e10d"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="21">
+            <img
+              class="img-fluid"
+              src="/assets/img/21@3x.png?h=28db794a35b84d0ebd65904f2b7801fe"
+            />
+          </td>
+          <td id="22">
+            <img
+              class="img-fluid"
+              src="/assets/img/22@3x.png?h=171eae5dbe4af047deadfafbdd3fc4bc"
+            />
+          </td>
+          <td id="23">
+            <img
+              class="img-fluid"
+              src="/assets/img/23@3x.png?h=49c2d8e3bafd060a2917797b7ba1dac0"
+            />
+          </td>
+          <td id="24">
+            <img
+              class="img-fluid"
+              src="/assets/img/24@3x.png?h=8d0758d7757ef89544d659ff149a2b2f"
+            />
+          </td>
+          <td id="25">
+            <img
+              class="img-fluid"
+              src="/assets/img/25@3x.png?h=0ba858c3f84fbb54a5a589faddcc1d16"
+            />
+          </td>
+          <td id="26">
+            <img
+              class="img-fluid"
+              src="/assets/img/26@3x.png?h=89bfed44a7eebebae406480751f98891"
+            />
+          </td>
+          <td id="27">
+            <img
+              class="img-fluid"
+              src="/assets/img/27@3x.png?h=f25660b5958d8f0e400bbf7989b9637f"
+            />
+          </td>
+          <td id="28">
+            <img
+              class="img-fluid"
+              src="/assets/img/28@3x.png?h=078216a5069f1a7fbafdeb233179fa53"
+            />
+          </td>
+          <td id="29">
+            <img
+              class="img-fluid"
+              src="/assets/img/29@3x.png?h=3f9f2b2b851f49126370deda8b5dcc54"
+            />
+          </td>
+          <td id="30">
+            <img
+              class="img-fluid"
+              src="/assets/img/30@3x.png?h=3a83594ac53ea8a7107cc2a504ba5b7c"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="20">
+            <img
+              class="img-fluid"
+              src="/assets/img/20@3x.png?h=828aa98e4627858497595d17413c5ff6"
+            />
+          </td>
+          <td id="19">
+            <img
+              class="img-fluid"
+              src="/assets/img/19@3x.png?h=98e783158b364f1f8392bc7b9cc95881"
+            />
+          </td>
+          <td id="18">
+            <img
+              class="img-fluid"
+              src="/assets/img/18@3x.png?h=e1ebeb8c91380a31295701efa8677e6c"
+            />
+          </td>
+          <td id="17">
+            <img
+              class="img-fluid"
+              src="/assets/img/17@3x.png?h=69b611f89034af20ec60a6fc9cad536d"
+            />
+          </td>
+          <td id="16">
+            <img
+              class="img-fluid"
+              src="/assets/img/16@3x.png?h=8ed33f667459e214a07eaa5b11360e5f"
+            />
+          </td>
+          <td id="15">
+            <img
+              class="img-fluid"
+              src="/assets/img/15@3x.png?h=8c9314db2c55f5679cf627eb7b453fea"
+            />
+          </td>
+          <td id="14">
+            <img
+              class="img-fluid"
+              src="/assets/img/14@3x.png?h=705fb97ff4be0b7c8fb3f0fc6649f98d"
+            />
+          </td>
+          <td id="13">
+            <img
+              class="img-fluid"
+              src="/assets/img/13@3x.png?h=0c5cf44cf0aa07d9cb0b7fc8f579b8fe"
+            />
+          </td>
+          <td id="12">
+            <img
+              class="img-fluid"
+              src="/assets/img/12@3x.png?h=6bdeda69dd3d5bb60fda8ac5ed71961b"
+            />
+          </td>
+          <td id="11">
+            <img
+              class="img-fluid"
+              src="/assets/img/11@3x.png?h=82ec77561d36f1f3a56ba7b19a484173"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="1">
+            <div
+              class="d-flex justify-content-center align-items-center px-2"
+              id="player"
+              style="position: absolute; z-index: 2; width: 100%; height: 100%"
+            >
+              <img
+                class="img-fluid"
+                src="/assets/img/icons8_coin.svg?h=70c248ee07452e2e89afd60b67c3f68a"
+              />
+            </div>
+            <img
+              class="img-fluid"
+              src="/assets/img/1@3x.png?h=6ac25ba12c8f377b75509f2c449e1b7e"
+            />
+          </td>
+          <td id="2">
+            <img
+              class="img-fluid"
+              src="/assets/img/2@3x.png?h=eb7952b058315f38438950db9cf29903"
+            />
+          </td>
+          <td id="3">
+            <img
+              class="img-fluid"
+              src="/assets/img/3@3x.png?h=5dc5cea36bdd9b6ee23b11d9d216192a"
+            />
+          </td>
+          <td id="4">
+            <img
+              class="img-fluid"
+              src="/assets/img/4@3x.png?h=5dc5cea36bdd9b6ee23b11d9d216192a"
+            />
+          </td>
+          <td id="5">
+            <img
+              class="img-fluid"
+              src="/assets/img/5@3x.png?h=00c471002e373a3a618e57e04fcd1892"
+            />
+          </td>
+          <td id="6">
+            <img
+              class="img-fluid"
+              src="/assets/img/6@3x.png?h=00c471002e373a3a618e57e04fcd1892"
+            />
+          </td>
+          <td id="7">
+            <img
+              class="img-fluid"
+              src="/assets/img/7@3x.png?h=03c01e5461f0fc662a5872f2d6055ed9"
+            />
+          </td>
+          <td id="8">
+            <img
+              class="img-fluid"
+              src="/assets/img/8@3x.png?h=88fb52d591ea8f89423bc69ce9c1315c"
+            />
+          </td>
+          <td id="9">
+            <img
+              class="img-fluid"
+              src="/assets/img/9@3x.png?h=7815b9dcf6ba474e5dbb639100735d89"
+            />
+          </td>
+          <td id="10">
+            <img
+              class="img-fluid"
+              src="/assets/img/10@3x.png?h=fbab4d11d63a0cbb9d01fe446e75de2f"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <!-- user control area -->
+      <div class="Player-controls mt-sm-2">
+        <div class="row">
+          <div class="col d-flex align-items-center justify-content-end">
+            <div class="left-die-container">
+              <img
+                id="left-dice"
+                class="img-fluid"
+                src="./assets/img/dice1.png"
+                alt="loading"
+              />
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-start">
+            <div class="right-die-container">
+              <img
+                id="right-dice"
+                class="img-fluid"
+                src="./assets/img/dice1.png"
+                alt="loading"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end user control area -->
+
+      <div
+        class="Player-game-control-area w-100 d-flex align-items-center justify-content-center mt-sm-4 mb-sm-4"
+      >
+        <div class="buttons-area">
+          <button
+            type="button"
+            name="playBtn"
+            id="playBtn"
+            class="btn btn-primary"
+          >
+            Roll the Dice
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/bootstrap/js/bootstrap.min.js?h=01bb7ae0c0b11509558f2aa83f244399"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
