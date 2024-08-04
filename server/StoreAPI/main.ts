@@ -1,8 +1,3 @@
 import 'reflect-metadata';
-import { ExpressApp } from './src';
+import 'dotenv/config';
 
-const app = new ExpressApp();
-
-setImmediate(() => {
-    app.start();
-});
